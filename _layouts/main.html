@@ -13,6 +13,23 @@
   <link rel="shortcut icon" href="img/favicon.ico">
 </head>
 <body>
+  <div id="top">
+    <div id="header">
+      <div id="logo" class="smalltext">
+        <img src="img/logo.png" alt="Austin, Worthington &amp; Associates">
+      </div>
+      <div id="nav" class="notext">
+        {% for navlink in site.nav %}
+          {% if page.tab == navlink.text %}
+            {% assign current = " selectednav" %}
+          {% else %}
+            {% assign current = "" %}
+          {% endif %}
+          <a href="{{navlink.link}}" class="navlink{{current}}">{{navlink.text}}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
   {{ content }}
 </body>
 </html>
