@@ -121,18 +121,41 @@ h4 {
 }
 
 #mission {
-  width: 600px;
+  width: 580px;
   float: left;
   font-size: 18px;
+  padding-top: 20px;
+  padding-right: 20px;
 }
 
 #profiles {
   float: left;
-  width: 340px;
+  width: 320px;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 
 #bobProfile {
   display: none;
+}
+
+#insuranceInfo {
+  float: left;
+  width: 320px;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+#companies {
+  width: 580px;
+  float: left;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#companies h2 {
+  margin-bottom: 20px;
 }
 
 .navlink {
@@ -208,6 +231,25 @@ h4 {
 .profile-info {
   border-top: 1px solid #fff;
   padding-top: 10px;
+}
+
+.company {
+  float: left;
+  text-align: right;
+  margin-bottom: 14px;
+}
+
+.padleft {
+  margin-right: 28px;
+}
+
+.companyimg {
+  background-color: #fff;
+  padding: 6px;
+}
+
+.companyimg img {
+  width: 160px;
 }
 
 .smalltext {
