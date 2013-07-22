@@ -1,0 +1,139 @@
+/*
+ * Common columns definitions
+ */
+.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12 {
+  float: left;
+  margin: 0 3% 0 0;
+}
+
+.col1.last, .col2.last, .col3.last, .col4.last, .col5.last, .col6.last, .col7.last, .col8.last, .col9.last, .col10.last, .col11.last, .col12 {
+  margin: 0;
+}
+
+.row {
+  float: left;
+}
+
+.row > div:last-child {
+  margin: 0;
+}
+
+.col1 { width: 5.5%; }
+.col2 { width: 14%; }
+.col3 { width: 22.5%; }
+.col4 { width: 31%; }
+.col5 { width: 39.5%; }
+.col6 { width: 48%; }
+.col7 { width: 56.5%; }
+.col8 { width: 65%; }
+.col9 { width: 73.5%; }
+.col10 { width: 82%; }
+.col11 { width: 90.5%; }
+.col12 { width: 99%; margin: 0; }
+
+.col1 img, .col2 img, .col3 img, .col4 img, .col5 img, .col6 img, .col7 img, .col8 img, .col9 img, .col10 img, .col11 img, .col12 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Super large
+------------------------- */
+@media (min-width: 2000px) {
+  #header {
+    width: 1800px !important;
+  }
+  #content {
+    width: 1800px !important;
+  }
+  #footer {
+    width: 1800px !important;
+  }
+}
+
+/* Desktop large
+------------------------- */
+@media (min-width: 1400px) and (max-width: 1999px) {
+  #header {
+    width: 1200px !important;
+  }
+  #content {
+    width: 1200px !important;
+  }
+  #footer {
+    width: 1200px !important;
+  }
+}
+
+/* Desktop medium
+------------------------- */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  #header {
+    width: 1000px !important;
+  }
+  #content {
+    width: 1000px !important;
+  }
+  #footer {
+    width: 1000px !important;
+  }
+}
+
+/* Desktop
+------------------------- */
+@media (min-width: 980px) and (max-width: 1199px) {
+  /* Unfloat brand */
+  #header {
+    width: 940px !important;
+  }
+  #content {
+    width: 940px !important;
+  }
+  #footer {
+    width: 940px !important;
+  }
+}
+
+/* Tablet to desktop
+------------------------- */
+@media (min-width: 768px) and (max-width: 979px) {
+  /* Remove any padding from the body */
+  #header {
+    width: 728px !important;
+  }
+  #content {
+    width: 728px !important;
+  }
+  #footer {
+    width: 728px !important;
+  }
+}
+
+/* Tablet
+------------------------- */
+@media (min-width: 620px) and (max-width: 767px) {
+  /* Remove any padding from the body */
+  #header {
+    width: 600px !important;
+  }
+  #content {
+    width: 600px !important;
+  }
+  #footer {
+    width: 600px !important;
+  }
+}
+
+/* Landscape phones
+------------------------- */
+@media (max-width: 619px) {
+  #header {
+    width: 440px !important;
+  }
+  #content {
+    width: 440px !important;
+  }
+  #footer {
+    width: 440px !important;
+  }
+}
