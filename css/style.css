@@ -119,8 +119,8 @@ h4 {
 
 #mission {
   float: left;
-	font-size: 18px;
-	line-height: 26px;
+	font-size: 20px;
+	line-height: 30px;
 	font-weight: 300;
 	padding-top: 20px;
 }
@@ -156,6 +156,14 @@ h4 {
 #about {
   font-weight: 300;
   line-height: 18px;
+}
+
+#bottom {
+  padding-bottom: 10px;
+}
+
+#contact {
+  font-weight: 300;
 }
 
 .navlink {
@@ -203,10 +211,6 @@ h4 {
   font-weight: bold;
 }
 
-.address {
-  font-weight: normal;
-}
-
 .profile {
   background-color: rgb(0, 144, 144);
   padding: 8px;
@@ -220,8 +224,8 @@ h4 {
 
 .profile img {
   float: right;
-  margin: 0 0 10px 10px;
-  width: 87px !important;
+  margin: 0 0 0 10px;
+  width: 91px !important;
 }
 
 .profileToggle {
@@ -231,7 +235,7 @@ h4 {
 
 .profile-info {
   border-top: 1px solid #fff;
-  padding: 10px 5px 5px 0;
+  padding: 10px 5px 5px 5px;
 	line-height: 18px;
 	font-weight: 300;
 }
