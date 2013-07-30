@@ -106,8 +106,8 @@ h4 {
 
 .herohome {
   background-image: url('../img/connection_icon.png');
-	background-position: 540px 1px;
-	background-size: 19.1%;
+  background-position: 540px 1px;
+  background-size: 19.1%;
 }
 
 .herohealth {
@@ -119,10 +119,10 @@ h4 {
 
 #mission {
   float: left;
-	font-size: 20px;
-	line-height: 30px;
-	font-weight: 300;
-	padding-top: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  padding-top: 20px;
 }
 
 #profiles {
@@ -164,6 +164,10 @@ h4 {
 
 #contact {
   font-weight: 300;
+}
+
+#twitterWidget {
+  display: none;
 }
 
 .navlink {
@@ -236,8 +240,35 @@ h4 {
 .profile-info {
   border-top: 1px solid #fff;
   padding: 10px 5px 5px 5px;
-	line-height: 18px;
-	font-weight: 300;
+  line-height: 18px;
+  font-weight: 300;
+}
+
+.tweet .profile {
+  background-color: transparent;
+  padding: 4px 0;
+  border-bottom: 1px solid #fff;
+}
+
+.tweet .tco-hidden {
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip: rect(0,0,0,0);
+  clip: rect(0 0 0 0);
+}
+
+.tweet .e-entry-title a {
+  border-bottom: 0;
+  padding: 0;
+}
+
+.tweet p {
+  margin: 12px 0;
+}
+
+.tweet abbr {
+  border: 0;
 }
 
 .company {

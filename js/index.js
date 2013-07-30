@@ -1,4 +1,4 @@
-$(function(){
+$(function() {
   var hollyDiv = $("#hollyProfile");
   var bobDiv = $("#bobProfile");
   var hollyArrow = $("#hollyArrow");
