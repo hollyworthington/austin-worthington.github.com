@@ -25,7 +25,7 @@ h1 {
 h2 {
   font-family: 'CenturySchoolbookBT-Bold', serif;
   font-size: 28px;
-  line-height: normal;
+  line-height: 36px;
   margin: 4px 0;
   color: rgb(255, 184, 20);
   font-weight: 100;
@@ -93,7 +93,6 @@ h4 {
 }
 
 #hero h1 {
-  line-height: 68px;
   font-size: 58px;
   margin: 0;
   color: rgb(255, 184, 20);
@@ -108,12 +107,14 @@ h4 {
   background-image: url('../img/connection_icon.png');
   background-position: 540px 1px;
   background-size: 19.1%;
+  line-height: 68px;
 }
 
 .herohealth {
   background-image: url('../img/health_icon.png');
-  background-position: 300px 0;
-  background-size: 10%;
+  background-position: 245px 0;
+  background-size: 9%;
+  line-height: 58px;
 }
 
 
@@ -142,11 +143,15 @@ h4 {
 #insuranceInfo {
   float: left;
   font-size: 18px;
-  line-height: normal;
+  line-height: 25px;
+  font-weight: 300;
+  padding-top: 20px;
 }
 
 #companies {
   float: left;
+  border-left: 3px rgb(0, 144, 144) solid;
+  padding: 20px 0 0 25px;
 }
 
 #companies h2 {
@@ -247,7 +252,6 @@ h4 {
 .tweet .profile {
   background-color: transparent;
   padding: 4px 0;
-  border-bottom: 1px solid #fff;
 }
 
 .tweet .tco-hidden {
@@ -264,7 +268,8 @@ h4 {
 }
 
 .tweet p {
-  margin: 12px 0;
+  margin: 0 0 12px 0;
+  font-weight: 300;
 }
 
 .tweet abbr {
@@ -285,6 +290,10 @@ h4 {
 
 .company img {
   display: block;
+}
+
+.rowinsurance {
+  margin-bottom: 40px;
 }
 
 .smalltext {
