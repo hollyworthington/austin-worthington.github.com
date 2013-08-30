@@ -44,6 +44,11 @@ h4 {
   font-weight: bold;
 }
 
+sup {
+  font-size: 10px;
+  font-weight: 300;
+}
+
 #header {
   width: 940px;
   height: 90px;
@@ -296,6 +301,23 @@ h4 {
   margin-bottom: 40px;
 }
 
+.modal {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 54px;
+  margin: 15px 40px 20px 40px;
+}
+
+.socialIcon {
+  font-size: 32px;
+  padding-top: 20px;
+}
+
+.socialIcon span{
+  padding-right: 15px;
+}
+
 .smalltext {
   line-height: 1px;
   font-size: 1px;
@@ -310,6 +332,10 @@ h4 {
   position: absolute;
   left: -9999px;
   line-height: 12px;
+}
+
+.pico-content {
+  background-color: rgb(0, 144, 144) !important;
 }
 
 .rounded {
@@ -328,6 +354,10 @@ h4 {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+}
+
+.hide {
+  display: none;
 }
 
 .left {

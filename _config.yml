@@ -3,17 +3,3 @@ nav:
     link: /
   - text: Health
     link: health.html
-  - text: Life
-    link: life.html
-  - text: Medicare
-    link: medicare.html
-  - text: Long-Term Care
-    link: longtermcare.html
-  - text: Disability
-    link: disability.html
-  - text: Dental
-    link: dental.html
-  - text: Vision
-    link: vision.html
-  - text: Travel
-    link: travel.html
