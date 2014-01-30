@@ -26,6 +26,8 @@ function extractTweets(parentEle, callback) {
       }
     } else {
       if (pollTries++ < 100) {
+        // re-fetch the doc in case it is not a pointer and instead is a copy?
+        iframeDoc = getDocFromIFrame(iframe);
         setTimeout(tryToFindTweets, 100);
       }
     }
