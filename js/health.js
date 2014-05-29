@@ -14,6 +14,11 @@ $(function() {
     autoOpen: false,
     closeButton: false
   });
+  var vspModal = picoModal({
+    content: $("#vspModal")[0],
+    autoOpen: false,
+    closeButton: false
+  });
   $("#kaiserPerm a").click(function(e){
     kaiserModal.open();
     e.preventDefault();
@@ -27,6 +32,18 @@ $(function() {
     e.preventDefault();
   });
   $("#united a").click(function(e){
+    callModal.open();
+    e.preventDefault();
+  });
+  $("#vspHealth a").click(function(e){
+    vspModal.open();
+    e.preventDefault();
+  });
+  $("#moda a").click(function(e){
+    callModal.open();
+    e.preventDefault();
+  });
+  $("#regence a").click(function(e){
     callModal.open();
     e.preventDefault();
   });
