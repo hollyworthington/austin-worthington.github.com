@@ -39,10 +39,12 @@ $(function() {
     vspModal.open();
     e.preventDefault();
   });
+/*
   $("#moda a").click(function(e){
     callModal.open();
     e.preventDefault();
   });
+*/
   $("#regence a").click(function(e){
     callModal.open();
     e.preventDefault();
